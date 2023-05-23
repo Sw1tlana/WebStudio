@@ -352,7 +352,6 @@ a {
 
 .work-list {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -385,6 +384,7 @@ a {
     letter-spacing: 0.03em;
     margin-top: 4px;
     color: var(--color-secondary);
+    flex-grow: 0;
 }
 
 
